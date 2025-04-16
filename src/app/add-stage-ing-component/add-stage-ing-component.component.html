@@ -1,0 +1,16 @@
+<form [formGroup]="stageForm" (ngSubmit)="onSubmit()">
+    <label for="titre">Titre:</label>
+    <input id="titre" formControlName="titre" />
+  
+    <label for="description">Description:</label>
+    <textarea id="description" formControlName="description"></textarea>
+  
+    <label for="duree">Durée (en semaines):</label>
+    <input id="duree" formControlName="duree" type="number" />
+  
+    <label for="entreprise">Entreprise:</label>
+    <input id="entreprise" formControlName="entreprise" />
+  
+    <button type="submit" [disabled]="!stageForm.valid">Ajouter Stage</button>
+  </form>
+  

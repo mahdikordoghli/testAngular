@@ -1,0 +1,25 @@
+{
+  "stages": [
+    {
+      "id": "3d59",
+      "titre": "aza",
+      "description": "z",
+      "duree": 5,
+      "entreprise": "az"
+    },
+    {
+      "id": "562f",
+      "titre": "az",
+      "description": "aza",
+      "duree": 2,
+      "entreprise": "Eaa"
+    },
+    {
+      "id": "04bb",
+      "titre": "test",
+      "description": "Test",
+      "duree": 1,
+      "entreprise": "Aze"
+    }
+  ]
+}

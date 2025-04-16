@@ -1,0 +1,15 @@
+<h2>Liste des stages</h2>
+
+<div *ngIf="stages.length > 0; else aucunStage">
+  <ul>
+    <li *ngFor="let stage of stages">
+      <strong>{{ stage.titre }}</strong> – {{ stage.description }}<br />
+      <em>Durée :</em> {{ stage.duree }} semaines<br />
+      <em>Entreprise :</em> {{ stage.entreprise }}
+    </li>
+  </ul>
+</div>
+
+<ng-template #aucunStage>
+  <p>Aucun stage trouvé.</p>
+</ng-template>
